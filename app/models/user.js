@@ -1,3 +1,5 @@
+// sets up a Mongoose schema for a user, including fields for username, email, and password. 
+// It also incorporates passportLocalMongoose for handling user authentication.
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 const passportLocalMongoose = require('passport-local-mongoose');
