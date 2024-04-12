@@ -1,3 +1,5 @@
+// sets up Passport.js for user authentication using the local strategy, integrates it with the User model, 
+// and defines serialization and deserialization methods for user objects.
 const LocalStrategy = require('passport-local').Strategy
 const User = require('../models/user')
 
